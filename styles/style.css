@@ -2,4 +2,80 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  color: var(--text-color,#F1B2CE);
+  font-family:'IBM Plex Mono',  monospace;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 23.4px;
+  background-image: var(--page-background-image, url(../images/cover-image.png));
+  background-position: center;
+  background-size: cover;
+  background-color: var(--page-background-color, #000028);
+}
+
+.decor__shadow {
+  text-shadow: 4px 4px 0 var(--accent-color, #FF0070);
+}
+
+.header {
+  display: grid;
+}
+
+.header__theme-menu {
+  justify-self: center;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.header__theme-menu-button {
+  color: var(--button-text, #FF0070);
+  line-height: 18px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  text-transform: lowercase;
+  padding: 0 13px;
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid transparent;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid rgba(255, 0, 112, 0.40);
+}
+
+.header__theme-menu-button:focus {
+  outline: 0;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid currentColor;
+}
+
+.decorated-zone {
+  position: relative;
+}
+
+.decor__rec {
+  position: absolute;
+}
+
+.title-logo {
+  color: var(--title-color, #DB00FF);
+  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+  font-weight: 700;
+  line-height: 82.5%
+}
+
+.title-text  {
+  color: var(--title-text, #000028);
+  font-weight: 700;
+  background-color: var(--title-background, #FF0070);
+  justify-self: end;
 }
