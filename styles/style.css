@@ -9,7 +9,7 @@
   background-size: cover;
   background-color: var(--page-background-color, #000028);
   background-attachment: fixed;
-  padding: var(--page-padding, 10px);
+  padding: var(--page-padding, 10px 10px 0 10px);
 }
 
 .decor__shadow {
@@ -219,7 +219,7 @@
   display: grid;
   justify-content: center;
   block-size: 100vh;
-  margin-block-start: var(--footer-margin, );
+  margin-block-start: var(--footer-margin, 40px);
   position: relative;
 
 }
@@ -231,6 +231,7 @@
   inline-size: 25px;
   block-size: 25px;
   inset-inline-end: 0;
+  inset-block-start: 10px;
   border-inline-end: 1px solid var(--decoration,#ff0070);
   border-block-start: 1px solid var(--decoration,#ff0070);
 }
@@ -241,7 +242,7 @@
   display: block;
   inline-size: 25px;
   block-size: 25px;
-  inset-block-end: 20px;
+  inset-block-end: 10px;
   border-inline-start: 1px solid var(--decoration,#ff0070);
   border-block-end: 1px solid var(--decoration,#ff0070);
 }
@@ -256,7 +257,7 @@
 
 @media ( width >= 768px) {
   :root {
-    --page-padding: 20px;
+    --page-padding: 20px 20px 0 20px;
     --main-gap: 80px;
     --footer-margin: 60px;
   }
@@ -321,6 +322,10 @@
 
   .footer::before {
     inset-block-start: 20px;
+  }
+
+  .footer::after {
+    inset-block-end: 20px;
   }
 
   .footer__title {

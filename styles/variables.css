@@ -1,6 +1,5 @@
 :root {
-  --page-padding: 10px;
-  
-  --main-gap: 80px;
-
+  --page-padding: 10px 10px 0 10px;
+  --main-gap: 50px;
+  --footer-margin: 40px;
 }  
