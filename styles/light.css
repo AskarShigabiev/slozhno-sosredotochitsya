@@ -7,13 +7,13 @@
 .page.theme_light {
   --page-background-image: url(/images/cover-image-light.png);
   --page-background-color: #fff1f7;
-  --text-color: #353535;
+  --text-color: #353430;
   --accent-color: #ff8dcb;
   --button-text: #353430;
   --title-text: #353430;
   --title-list: #353430;
   --title-color: #ffc2e6;
-  --button-outline: #353535;
+  --button-outline: #353430;
   --rec-visibility: hidden;
   --title-background: #ff8dcb;
   --decoration: #353430;
@@ -23,13 +23,13 @@
   :root {
   --page-background-image: url(/images/cover-image-light.png);
   --page-background-color: #fff1f7;
-  --text-color: #353535;
+  --text-color: #353430;
   --accent-color: #ff8dcb;
   --button-text: #353430;
   --title-text: #353430;
   --title-list: #353430;
   --title-color: #ffc2e6;
-  --button-outline: #353535;
+  --button-outline: #353430;
   --rec-visibility: hidden;
   --title-background: #ff8dcb;
   --decoration: #353430;
