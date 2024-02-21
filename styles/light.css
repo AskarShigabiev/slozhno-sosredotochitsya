@@ -5,7 +5,7 @@
 */
 
 .page.theme_light {
-  --page-background-image: url(/images/cover-image-light.png);
+  --page-background-image: url(../images/cover-image-light.png);
   --page-background-color: #fff1f7;
   --text-color: #353430;
   --accent-color: #ff8dcb;
@@ -17,21 +17,23 @@
   --rec-visibility: hidden;
   --title-background: #ff8dcb;
   --decoration: #353430;
+  --button-outline-hover:  rgba(50, 49, 45, 0.40);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-  --page-background-image: url(/images/cover-image-light.png);
-  --page-background-color: #fff1f7;
-  --text-color: #353430;
-  --accent-color: #ff8dcb;
-  --button-text: #353430;
-  --title-text: #353430;
-  --title-list: #353430;
-  --title-color: #ffc2e6;
-  --button-outline: #353430;
-  --rec-visibility: hidden;
-  --title-background: #ff8dcb;
-  --decoration: #353430;
+    --page-background-image: url(../images/cover-image-light.png);
+    --page-background-color: #fff1f7;
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --button-text: #353430;
+    --title-text: #353430;
+    --title-list: #353430;
+    --title-color: #ffc2e6;
+    --button-outline: #353430;
+    --rec-visibility: hidden;
+    --title-background: #ff8dcb;
+    --decoration: #353430;
+    --button-outline-hover:  rgba(50, 49, 45, 0.40);
   }
 }
