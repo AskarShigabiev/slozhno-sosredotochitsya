@@ -273,7 +273,8 @@
   }
 
   .header__title-text {
-    margin-block-start: 164px;
+    align-self: center;
+    margin-block-start: 10px;
     margin-inline-start: 365px;
   }
 
@@ -340,8 +341,8 @@
   }
 
   .header__title-text {
-    margin-inline-start: 495px;
-    margin-block-start: 115px;
+    align-self: center;
+    margin-inline-start: 493px;
   }
 
   .list__why {
